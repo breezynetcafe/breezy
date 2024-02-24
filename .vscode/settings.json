@@ -1,0 +1,10 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "[python]": {
+        "editor.rulers": [79]
+    },
+    "editor.folding": true,
+    "editor.foldingMaximumRegions": 5000
+}
