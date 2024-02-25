@@ -30,10 +30,7 @@ p {
     font-size: 1.8rem;
     line-height: 2.5rem;
 }
-.fb-container {
-    background-color: black;
-    
-}
+
 #navigation .container {
     padding: 0.5rem 1rem;
 }
@@ -158,9 +155,6 @@ section {
     gap: 0.8em;
 }
 #navigation .container ul li:first-child {
-    margin-right: auto;
-}
-#navigation .container ul li:nth-child(2) {
     margin-right: auto;
 }
 
@@ -630,12 +624,14 @@ section {
 }
 #contact .contact-map-container {
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
     flex: 1;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 #contact iframe {
     width: 100%;
-    height: 100%;
+    height: 50%;
     border-radius: 1.5rem;
 }
 #contact .social-icons {
