@@ -675,6 +675,7 @@ section {
 
 footer {
     background-color: black;
+    height: 15rem;
 }
 footer .container {
     justify-content: center;
@@ -772,9 +773,14 @@ footer .container {
         height: 15rem;
     }
     #rush-id .rush-id-frame {
-        
         width: 100%;
-        /* padding: 1rem; */
+    }
+    #contact p {
+        font-size: 1.5rem;
+        
+    }
+    footer p {
+        font-size: 1.5rem;
     }
 
 }
